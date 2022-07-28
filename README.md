@@ -10,3 +10,8 @@ https://3enhobson.github.io/challenge-3/
 
 ![screenshot](assets/password%20generator.jpeg)
     
+## Credits
+
+In order to help with a few lines of code (lines 7-17 in JS) I watched this tutorial.
+
+https://www.youtube.com/watch?v=JheVaV6bPvE&t=5268s&ab_channel=WilliamHorn

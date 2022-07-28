@@ -47,18 +47,22 @@ function generatePassword() {
   var symbolList = ["~", "`", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "=", "+", "{", "}", "[", "]", "|", ":", ";", "?", "<", ">", ",", "."]
 
 
-
   if (includeLowercase === true) {
     passwordArray.push(lowercaseList)
+    
   }
+
   if (includeUppercase === true) {
     passwordArray.push(uppercaseList)
+    
   }
   if (includeNumbers === true) {
     passwordArray.push(numberList)
+    
   }
   if (includeSymbols === true) {
     passwordArray.push(symbolList)
+    
   }
 
   if (passwordArray.length === 0) {
@@ -67,10 +71,13 @@ function generatePassword() {
   }
 
   var generatedPassword = ""
+ 
+  
 
   for (var i = 0; i < passwordLength; i++) {
     //randomList picks a list 
     var randomList = getRandomItem(passwordArray)
+    
     //randomCharacter picks a character from whatever list was picked
     var randomCharacter = getRandomItem(randomList)
 
