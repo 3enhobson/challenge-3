@@ -24,7 +24,7 @@ function generatePassword() {
   }
 
   if (passwordLength < 8 || passwordLength > 128) {
-    window.prompt("Password must be between 8 & 128 characters.")
+    window.alert("Password must be between 8 & 128 characters.")
     return
   }
 
